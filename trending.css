@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    display: block;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #navbar {
+    display: flex;
+    /* background-color: azure; */
+    /* opacity: 0.5; */
+    border: rgb(133, 114, 114) 2px solid;
+    width: 99.6%;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #title {
+    display: flex;
+    /* border: 1px solid red; */
+    /* padding: 0.1%; */
+    width: 20%;
+    justify-content: center;
+    /* box-sizing: border-box; */
+  }
+  #fovMovie {
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 0.5%;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #serach {
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 23%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .titleText {
+    font-size: 25px;
+    color: rgb(102, 102, 85);
+    opacity: 0.5;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .classText {
+      font-size: 21px;
+      color: rgb(102, 102, 85);
+      opacity: 0.5;
+      font-weight: bold;
+      font-style: italic;
+  }
+  
+  #serachMovies{
+      width: 70%;
+      height: 30px;
+      font-size: 18px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      border-radius: 8px;
+  }
+  .text{
+      padding: 10px;
+      /* font-size: 18px; */
+      cursor: pointer;
+      border-radius: 50%;
+      background: none;
+  }
+  .fas{
+      font-size: 22px;
+      /* padding: 2px; */
+  }
